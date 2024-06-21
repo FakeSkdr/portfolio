@@ -1,4 +1,6 @@
 import React from "react";
+import Link from "next/link";
+
 import {
   Card,
   CardHeader,
@@ -7,29 +9,28 @@ import {
   CardContent,
   CardFooter,
 } from "@/components/ui/card";
-import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 interface ContactCardProps {
   icon: React.ReactNode;
   username: string;
   url: string;
-  label: string;
+  linkCta: string;
   children?: React.ReactNode;
 }
 
 const ContactCard: React.FC<ContactCardProps> = ({
-  label,
   icon,
   username,
   url,
+  linkCta,
   children,
 }) => {
   return (
     <Card className="flex max-w-md flex-col items-center rounded-lg bg-muted p-2 pb-1">
       <CardHeader className="flex self-start">
         <CardTitle className="flex items-center gap-4 align-middle">
-          {icon} <h3 className="text-lg font-bold">{username}</h3>
+          {icon} <span className="text-lg font-bold">{username}</span>
         </CardTitle>
       </CardHeader>
       <CardContent className="h-[100px]">
@@ -38,7 +39,7 @@ const ContactCard: React.FC<ContactCardProps> = ({
       <CardFooter className="flex self-end">
         <Button asChild>
           <Link href={url} target="_blank" prefetch={false}>
-            View my {label}
+            {linkCta}
           </Link>
         </Button>
       </CardFooter>

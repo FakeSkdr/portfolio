@@ -1,0 +1,16 @@
+{
+  "ContactPage": {
+    "cardAction": "See {brand}",
+    "githubDescription": "Browse though my GitHub repositories to see unfinished projects and the source code of this website.",
+    "linkedinDescription": "Connect with me on LinkedIn to learn more about my professional experience and projects."
+  },
+  "LayoutHeader": {
+    "contact": "Contact",
+    "home": "Home",
+    "projects": "Projects"
+  },
+  "ModeToggle": {
+    "dark": "Dark theme",
+    "light": "Light theme"
+  }
+}

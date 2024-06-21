@@ -1,0 +1,16 @@
+{
+  "ContactPage": {
+    "cardAction": "Accéder à mon {brand}",
+    "githubDescription": "Parcourez ma page GitHub pour voir quelques projets inachevés et le code source de ce site web.",
+    "linkedinDescription": "Accéder à mon profile LinkedIn pour en savoir plus sur mon expérience professionnelle et mes projets, ou me contacter."
+  },
+  "LayoutHeader": {
+    "contact": "Contact",
+    "home": "Accueil",
+    "projects": "Projets"
+  },
+  "ModeToggle": {
+    "dark": "Theme sombre",
+    "light": "Theme claire"
+  }
+}

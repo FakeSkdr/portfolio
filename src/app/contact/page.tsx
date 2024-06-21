@@ -1,35 +1,31 @@
+import { useTranslations } from "next-intl";
+
 import ContactCard from "./contact-card";
-import { GithubIcon, Linkedin } from "lucide-react";
+
+import Github from "@/components/icons/github";
+import Linkedin from "@/components/icons/linkedin";
 
 export default function ContactPage() {
+  const t = useTranslations("ContactPage");
+
   return (
     <div className="container mt-12 flex flex-wrap justify-around gap-10">
       <ContactCard
-        label="LinkedIn"
         username="Bastien Bocquet"
-        icon={
-          <div className="rounded-full bg-[#0077B5] p-3 text-white">
-            <Linkedin className="size-4" />
-          </div>
-        }
+        icon={<Linkedin className="size-10" />}
         url="https://www.linkedin.com/in/bastien-bocquet/"
+        linkCta={t("cardAction", { brand: "Linkedin" })}
       >
-        Connect with me on LinkedIn to learn more about my professional
-        experience and projects.
+        {t("linkedinDescription")}
       </ContactCard>
 
       <ContactCard
-        label="Github"
         username="@FakeSkdr"
-        icon={
-          <div className="rounded-full bg-black p-3 text-white">
-            <GithubIcon className="size-4" />
-          </div>
-        }
-        url="https://github.com/FakeSkdr"
+        icon={<Github className="size-10" />}
+        url="https://github.com/FakeSkdr/portfolio"
+        linkCta={t("cardAction", { brand: "Github" })}
       >
-        Browse though my GitHub repositories to see some unfinished projects and
-        the source code of this website.
+        {t("githubDescription")}
       </ContactCard>
     </div>
   );

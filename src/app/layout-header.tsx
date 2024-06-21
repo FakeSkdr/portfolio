@@ -1,9 +1,14 @@
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 
-import { ModeToggle } from "./ui/mode-toggle";
 import { Home } from "lucide-react";
 
+import { ModeToggle } from "../components/ui/mode-toggle";
+import { LocaleToggle } from "../components/ui/locale-toggle";
+
 export function LayoutHeader() {
+  const t = useTranslations("LayoutHeader");
+
   return (
     <header className="flex h-16 items-center justify-between border-b border-muted px-6">
       <Link href="/" className="flex items-center gap-2" prefetch={false}>
@@ -17,24 +22,27 @@ export function LayoutHeader() {
           className="text-sm font-medium text-muted-foreground hover:text-foreground"
           prefetch={false}
         >
-          Home
+          {t("home")}
         </Link>
         <Link
           href="#"
           className="text-sm font-medium text-muted-foreground hover:text-foreground"
           prefetch={false}
         >
-          About
+          {t("projects")}
         </Link>
         <Link
           href="/contact"
           className="text-sm font-medium text-muted-foreground hover:text-foreground"
           prefetch={false}
         >
-          Contact
+          {t("contact")}
         </Link>
       </nav>
-      <ModeToggle />
+      <div className="flex flex-row gap-4">
+        <ModeToggle />
+        <LocaleToggle />
+      </div>
     </header>
   );
 }
