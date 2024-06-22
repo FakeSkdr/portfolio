@@ -1,8 +1,21 @@
 {
+  "AboutMe": {
+    "aboutMe": "About me",
+    "introduction": "I'm a Frontend engineer with over 9 years of experience, specialized in building web applications using ReactJs with best practices.",
+    "hobbies": "When I'm not coding, you can find me playing badmintton, climbing, or playing boardgames."
+  },
+  "Banner": {
+    "intro": "Senior frontend engineer with a passion for creating user-centric and functional web applications"
+  },
   "ContactPage": {
     "cardAction": "See {brand}",
+    "description1": "10 years in the world of web development, currently on ReactJS",
+    "description2": "I consider that the framework or the programming language is a tool that must be adapted according to the context.",
+    "description3": "What motivates me the most is the feeling of creativity and accomplishment when developing a product.",
+    "descriptionGlobal": "Let's connect and discuss how my background and your needs can align to create outstanding results!",
     "githubDescription": "Browse though my GitHub repositories to see unfinished projects and the source code of this website.",
-    "linkedinDescription": "Connect with me on LinkedIn to learn more about my professional experience and projects."
+    "linkedinDescription": "Connect with me on LinkedIn to learn more about my professional experience and projects.",
+    "whoAmI": "Who Am I?"
   },
   "LayoutHeader": {
     "contact": "Contact",
