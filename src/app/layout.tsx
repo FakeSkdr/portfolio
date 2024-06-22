@@ -9,6 +9,7 @@ import { cn } from "@/lib/utils";
 import { getLocale } from "@/utils/i18n.utils";
 
 import { LayoutHeader } from "./layout-header";
+import { LayoutFooter } from "./layout-footer";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -34,12 +35,13 @@ export default async function RootLayout({
         <NextIntlClientProvider messages={messages}>
           <ThemeProvider
             attribute="class"
-            defaultTheme="system"
+            defaultTheme="dark"
             enableSystem
             disableTransitionOnChange
           >
             <LayoutHeader />
             {children}
+            <LayoutFooter />
           </ThemeProvider>
         </NextIntlClientProvider>
       </body>

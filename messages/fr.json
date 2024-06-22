@@ -1,8 +1,24 @@
 {
+  "AboutMe": {
+    "aboutMe": "À Propos de moi",
+    "hobbies": "Quand je ne code pas, vous pouvez me trouver en train de jouer au badmintton, faire de l'escalade ou jouer à des jeux de société.",
+    "introduction1": "Issue d'une école d'ingénieur en administration système et réseaux en 2014, je me suis rendu compte au cours de mon parcours et de mes stages que l'aspect création du monde du développement logiciel m'intéressait beaucoup plus.",
+    "introduction2": "J'ai rejoint, dans ce but, une ESN (Netapsys) pour accumuler rapidement de l'expérience via des projets courts (de 2 semaines à 5 mois), en fullstack et en formation autodidacte pendant 2 ans, avant de me spécialiser dans le frontend.",
+    "introduction3": "Depuis, j'ai eu l'occasion de découvrir le monde de la QA à Euronews, puis j'ai travaillé sur des produits utilisant divers frameworks JS (AngularJS, Angular 2+, ReactJS), avec une spécialisation en ReactJS grâce à ma mission au sein de Bedrock Streaming.",
+    "seeMore": "Vous pouvez consulter une version détaillée de mes expériences professionnelles sur"
+  },
+  "Banner": {
+    "intro": "Senior frontend engineer passionné par la création d'applications Web centrées sur l'expérience utilisateur"
+  },
   "ContactPage": {
     "cardAction": "Accéder à mon {brand}",
+    "description1": "10 ans dans le monde du développement web, actuellement sur du ReactJS",
+    "description2": "Je considère que le framework ou le langage de programmation est un outil qui doit être adapté en fonction du contexte.",
+    "description3": "Ce qui me motive le plus est le sentiment de créativité et d'accomplissement lors du développement d'un produit.",
+    "descriptionGlobal": "Connectons-nous et discutons de la façon dont mon parcours et vos besoins peuvent s'aligner pour créer des résultats exceptionnels !",
     "githubDescription": "Parcourez ma page GitHub pour voir quelques projets inachevés et le code source de ce site web.",
-    "linkedinDescription": "Accéder à mon profile LinkedIn pour en savoir plus sur mon expérience professionnelle et mes projets, ou me contacter."
+    "linkedinDescription": "Accéder à mon profile LinkedIn pour en savoir plus sur mon expérience professionnelle et mes projets, ou me contacter.",
+    "whoAmI": "Qui suis-je?"
   },
   "LayoutHeader": {
     "contact": "Contact",

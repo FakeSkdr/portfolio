@@ -3,8 +3,8 @@ import { useTranslations } from "next-intl";
 
 import { Home } from "lucide-react";
 
-import { ModeToggle } from "../components/ui/mode-toggle";
-import { LocaleToggle } from "../components/ui/locale-toggle";
+import { ModeToggle } from "../components/mode-toggle";
+import { LocaleToggle } from "../components/locale-toggle";
 
 export function LayoutHeader() {
   const t = useTranslations("LayoutHeader");
