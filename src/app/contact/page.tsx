@@ -12,12 +12,12 @@ export default function ContactPage() {
     <main className="container flex flex-col gap-10">
       <h2 className="mt-4 self-start text-3xl font-bold">{t("whoAmI")}</h2>
       <section className="text-xl text-muted-foreground">
-        <ul className="mx-24 list-disc">
+        <ul className="mx-12 list-disc">
           <li>{t("description1")}</li>
           <li>{t("description2")}</li>
           <li>{t("description3")}</li>
         </ul>
-        <p className="m-12">{t("descriptionGlobal")}</p>
+        <p className="mt-8">{t("descriptionGlobal")}</p>
       </section>
 
       <section className="mb-24 flex flex-row flex-wrap justify-around gap-10">

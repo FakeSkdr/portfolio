@@ -1,8 +1,11 @@
 {
   "AboutMe": {
     "aboutMe": "About me",
-    "introduction": "I'm a Frontend engineer with over 9 years of experience, specialized in building web applications using ReactJs with best practices.",
-    "hobbies": "When I'm not coding, you can find me playing badmintton, climbing, or playing boardgames."
+    "hobbies": "When I'm not coding, you can find me playing badmintton, climbing, or playing boardgames.",
+    "introduction1": "Graduating from an engineering school in system administration and network in 2014, I realized during my career and my internships that the creative aspect of the world of software development interests me more.",
+    "introduction2": "With this purpose, I joined an ESN (Netapsys) to quickly accumulate experience through short projects (from 2 weeks to 5 months) as a fullstack enginner, and in self-taught training for 2 years, before to specialize in frontend.",
+    "introduction3": "Since then, I had the opportunity to discover the world of QA at Euronews, then I worked on various products using different JS frameworks (AngularJS, Angular 2+, ReactJS), with a specialization in ReactJS thanks to my mission within Bedrock Streaming.",
+    "seeMore": "You can browse though my detailed experiences on"
   },
   "Banner": {
     "intro": "Senior frontend engineer with a passion for creating user-centric and functional web applications"

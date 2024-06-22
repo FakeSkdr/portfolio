@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 
 export default function AboutMe() {
   const t = useTranslations("AboutMe");
@@ -15,12 +16,22 @@ export default function AboutMe() {
         </div>
         <div className="flex flex-col justify-center">
           <h2 className="mb-4 text-3xl font-bold">{t("aboutMe")}</h2>
-          <p className="text-muted-foreground">
-            {t("introduction")}
-            <br />
-            <br />
-            {t("hobbies")}
-          </p>
+          <section className="flex flex-col gap-4">
+            <p className="text-muted-foreground">{t("introduction1")}</p>
+            <p className="text-muted-foreground">{t("introduction2")}</p>
+            <p className="text-muted-foreground">{t("introduction3")}</p>
+            <p className="text-muted-foreground">
+              {t("seeMore")}{" "}
+              <Link
+                prefetch={false}
+                className="underline"
+                href="https://www.linkedin.com/in/bastien-bocquet/details/experience/"
+              >
+                Linkedin
+              </Link>
+            </p>
+            <p className="text-muted-foreground">{t("hobbies")}</p>
+          </section>
         </div>
       </div>
     </section>
