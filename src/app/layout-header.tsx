@@ -25,13 +25,6 @@ export function LayoutHeader() {
           {t("home")}
         </Link>
         <Link
-          href="#"
-          className="text-sm font-medium text-muted-foreground hover:text-foreground"
-          prefetch={false}
-        >
-          {t("projects")}
-        </Link>
-        <Link
           href="/contact"
           className="text-sm font-medium text-muted-foreground hover:text-foreground"
           prefetch={false}
