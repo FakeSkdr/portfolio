@@ -22,8 +22,7 @@
   },
   "LayoutHeader": {
     "contact": "Contact",
-    "home": "Accueil",
-    "projects": "Projets"
+    "home": "Accueil"
   },
   "ModeToggle": {
     "dark": "Theme sombre",
